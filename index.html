@@ -10,25 +10,57 @@
     <title>Polytechnic Handnotes</title>
 </head>
 <body class="bg-dark">
-   
+  
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand"  weight="50px" height="10px" href="#"><img src="images/logo3.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contribute.html">Contribute</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Semester Wise Resources
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+      
+              <li><a class="dropdown-item" href="#">4th Semester</a></li>
+              <li><a class="dropdown-item" href="#">5th Semester</a></li>
+              <li><a class="dropdown-item" href="#">6th Semester</a></li>
+            </ul>
+          </li>
+         
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  
     <!-- Navbar content -->
     <!-- This will come on top of all Pages -->
-    <div class="d-flex justify-content-center">
+    <!-- <div class="d-flex justify-content-center">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
      
             <a class="navbar-brand" href="index.html">Polytechnic Handnotes</a>
             <nav class="navbar navbar-light bg-light">
-             
-                
-                <!-- Search -->
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-  
+              -->
                 <!-- Nav contents -->
-                <ul class="nav justify-content-end">
+                <!-- <ul class="nav justify-content-end">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
@@ -38,17 +70,17 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Query</a>
                   </li>
-                  <!-- <li class="nav-item">
+                   <li class="nav-item">
                     <a class="nav-link" href="#">Contact Us</a>
                   </li> -->
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="nav-link" href="#">About Us</a>
                   </li>
              
-                </ul>
+                </ul>  -->
 
                 <!-- Semester Wise Resources -->
-                <div class="dropdown">
+                <!-- <div class="dropdown">
                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                     Semester Wise Resources
                   </button>
@@ -60,15 +92,22 @@
                     <li><a class="dropdown-item" href="6th-sem.html">6th Semester</a></li>
                     <li>
                   </ul>
-                </div>
+                </div> -->
 
+                
+                <!-- Search -->
+                <!-- <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+  
               
             </nav>  
           </div>
         </nav>
       </div>
   
-    </div>
+    </div> -->
 
     
   
@@ -77,69 +116,9 @@
     
 <br><br>
 
+
   <!-- Notes container  -->
   <div class="d-flex justify-content-around">
-
-    <!-- Programming in C Notes -->
-    <div class="d-flex justify-content-center">
-      <div class="card bg-dark" style="width: 18rem;">
-        <img src="images/programmingInC.jpg" class="card-img-top" alt="image showing c language code">
-        <div class="card-body">
-          <h5 class="card-title text-white">Programming in C</h5>
-          <a href="programmingInC.html" class="btn btn-primary">Click Here</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Operating Systems Notes -->
-    <div class="d-flex justify-content-evenly">
-      <div class="card bg-dark" style="width: 18rem;">
-        <img src="images/operatingSystem.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-white">Operating Systems</h5>
-          <a href="Operating System.html" class="btn btn-primary">Click Here</a>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Digital Electronics Notes -->
-    <div class="d-flex justify-content-evenly">
-      <div class="card bg-dark hover-overlay" style="width: 18rem;">
-        <img src="images/digitalElectronics.jpg" class="card-img-top" alt="...">
-        <div class="card-body bg-dark">
-          <h5 class="card-title text-white">Digital Electronics</h5>
-          <a href="Digital Electronics.html" class="btn btn-primary">Click Here</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Multimedia Applications Notes -->
-  <div class="d-flex justify-content-evenly">
-    <div class="card bg-dark" style="width: 18rem;">
-      <img src="images/multimediaApplications.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-white">Multimedia Applications</h5>
-        <a href="Multimedia Applications.html" class="btn btn-primary">Click Here</a>
-      </div>
-    </div>
-  </div>
-    
-  </div>
-
-  <br><br>
-  <!-- Notes container  -->
-  <div class="d-flex justify-content-around">
-
-  <!-- Data Communication Notes -->
-  <div class="d-flex justify-content-evenly">
-    <div class="card" style="width: 18rem;">
-      <img src="images/dataCommunication.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Data Communication</h5>
-        <a href="Data Communication.html" class="btn btn-primary">Click Here</a>
-      </div>
-    </div>
-  </div>
 
   <!-- Data Structures Using C Notes -->
   <div class="d-flex justify-content-evenly">
@@ -227,19 +206,82 @@
   </div>
 
   <br>
-    <!--Pages tab-->
-    <nav aria-label="Page navigation example">
-      <ul class="pagination justify-content-center">
-        <li class="page-item">
-          <a class="page-link" href="index.html">Previous</a>
-        </li>
-        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
-        <li class="page-item"><a class="page-link" href="index2.html">2</a></li>
-        <li class="page-item">
-          <a class="page-link" href="index2.html">Next</a>
-        </li>
-      </ul>
-    </nav>
+
+   <!-- Notes container  -->
+   <div class="d-flex justify-content-around">
+
+    <!-- Computer Programming Using Python Notes -->
+    <div class="d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="images/python.avif" class="card-img-top" alt="image showing c language code">
+        <div class="card-body">
+          <h5 class="card-title">Computer Programming Using Python</h5>
+          <a href="Python.html" class="btn btn-primary">Click Here</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cloud Computing Notes -->
+    <div class="d-flex justify-content-evenly">
+      <div class="card" style="width: 18rem;">
+        <img src="images/cloudComputing.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cloud Computing</h5>
+          <a href="Cloud Computing.html" class="btn btn-primary">Click Here</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Web Development Using PHP Notes -->
+    <div class="d-flex justify-content-evenly">
+      <div class="card" style="width: 18rem;">
+        <img src="images/php.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Web Development Using PHP</h5>
+          <a href="Php.html" class="btn btn-primary">Click Here</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Network Security Notes -->
+  <div class="d-flex justify-content-evenly">
+    <div class="card" style="width: 18rem;">
+      <img src="images/networkSecurtiy.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Network Securtiy</h5>
+        <a href="Network Security.html" class="btn btn-primary">Click Here</a>
+      </div>
+    </div>
+  </div>
+    
+  </div>    
+
+  <!-- Notes container  -->
+  <div class="d-flex justify-content-around">
+
+    <!-- Mobile Application Development Notes -->
+    <div class="d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="images/mad.webp" class="card-img-top" alt="image showing c language code">
+        <div class="card-body">
+          <h5 class="card-title">Mobile Application Development</h5>
+          <a href="Mobile Application Development.html" class="btn btn-primary">Click Here</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Entrepreneurship Development & Management Notes -->
+    <div class="d-flex justify-content-evenly">
+      <div class="card" style="width: 18rem;">
+        <img src="images/EDM.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Entrepreneurship Development & Management</h5>
+          <a href="Entrepreneurship Development and Management.html" class="btn btn-primary">Click Here</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>    
 
 </body>
 </html>
