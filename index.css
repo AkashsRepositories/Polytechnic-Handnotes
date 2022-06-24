@@ -1,6 +1,42 @@
-.navbar.navbar-expand-lg.bg-light{
-  background-color: black;
+body{
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+font-family:'Times New Roman', Times, serif;
 }
+
+footer{
+  text-align: center;
+  color: white;
+}
+.nav-link{
+  color: white;
+}
+.nav-link.active{
+  color: #0D6EFD !important;
+  font-weight: bold;
+}
+.nav-link:hover{
+  color: #0D6EFD !important;
+}
+
+.content-box{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 7.5vh;
+}
+
+
+.card-title{
+  height: 12vh;
+}
+
+.card-img-top{
+  height: 30vh;
+  width: auto;
+}
+
+
 
 /* Make the image fully responsive */
  .carousel-inner img {
@@ -13,10 +49,7 @@ height: 85vh;
   }
 
 
-  .bodystyle{
-    width: 100%;
-    margin: 0 auto;
-} 
+
 .logostyle{
     height: 50px;
 }
