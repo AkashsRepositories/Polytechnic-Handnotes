@@ -8,7 +8,7 @@ body{
     color: white;
   }
   .nav-link{
-    color: white;
+    color: rgb(255, 255, 255);
   }
   .nav-link.active{
     color: #0D6EFD !important;
@@ -45,8 +45,6 @@ body{
   text-align: center;
 }
   
-
-
 .logostyle{
-    height: 50px;
+  height: 50px;
 }
