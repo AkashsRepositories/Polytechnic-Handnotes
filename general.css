@@ -50,7 +50,7 @@ body{
 }
 
 /* for getting both logo and navbar options in same line  */
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:400px) {
     .logostyle{
         height: 20px;
         width: auto;
@@ -58,6 +58,14 @@ body{
     .navbar-brand{
       font-size: small;
     }
+    .navbar-toggler-icon{
+      height: 1.2rem;
+      width: 1.2rem;
+    }
+    .navbar-toggler{
+      padding: 0.3rem 0.3rem;
+    }
+    
   }
 
 
