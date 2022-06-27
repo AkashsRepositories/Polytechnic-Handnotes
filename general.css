@@ -89,7 +89,7 @@ body{
     color: #a0aeff !important;
 }
 .nav-link{
-    color: rgb(231, 223, 223);
+    color: rgb(243, 243, 243) !important;
 }
 .nav-link:hover{
     color: #bdc0cf !important;
